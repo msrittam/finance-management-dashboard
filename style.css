@@ -1,0 +1,847 @@
+body{
+    background-color: #f8f8f8;
+    overflow-y: hidden;
+}
+.BodyWrapper{
+    width: 96%;
+    height: auto;
+    margin: 0% 2%;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: #fbfbfb;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    overflow: hidden;
+}
+.FirstHeadWrapper{
+    width: 96%;
+    padding: 2%;
+    overflow-x: hidden;
+    background-color: #ebebeb;
+}
+.SecondDivisionWrapper{
+    width: 96%;
+    padding: 2%;
+    overflow-x: hidden;
+    background-color: white;
+}
+.FirstHeadFirst{
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.CompanyProfileWrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.CompanyMenuImage{
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    max-width: 33px;
+    min-width: 33px;
+    padding: 13px;
+}
+.CompanyMenuImage img{
+    width: 100%;
+}
+.CompanyProfileImage{
+    margin-right: 15px;
+    max-width: 55px;
+    min-width: 55px;
+}
+.PlusIconImage{
+    margin-right: 10px;
+    max-width: 55px;
+    min-width: 55px;
+}
+.CompanyProfileImage img{
+    width: 100%;
+}
+.CompanyHeadingWrapper{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.CompanyProfileWrapper2{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 15px;
+}
+.CompanyFinancial{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.CompanyDashboard{
+    color: gray;
+    padding: 0;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.profileDesignation{
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.AvatarImageWrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.SearchingMessage{
+    color: gray;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.FirstHeadSecond{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+.DashboardDateWrapper{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.FirstHeadSecond19{
+    margin: 0;
+    white-space: nowrap;
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 30px;
+}
+.TueDecember p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+.FirstHeadSecondBreaker{
+    width: 2px;
+    height: 35px;
+    background-color: gray;
+    margin-right: 20px;
+}
+.ShowTasksWrapper{
+    min-width: fit-content;
+    max-width: fit-content;
+    border-radius: 100px;
+    background-color: #e16448;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    padding: 13px 30px;
+    cursor: pointer;
+}
+.ShowTasksWrapper p{
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    color: white;
+}
+.FirstHeadSecondArrow{
+    min-width: 30px;
+    max-width: 30px;
+    margin-left: 30px;
+}
+.FirstHeadSecondArrow img{
+    width: 100%;
+}
+.FirstHeadSecondCal{
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    max-width: 33px;
+    min-width: 33px;
+    padding: 13px;
+}
+.FirstHeadSecondCal img{
+    width: 100%;
+}
+.FirstHeadSecond2{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.NeedHelpWrapper{
+    width: fit-content;
+    margin-right: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.NeedHelpWrapper p{
+    white-space: nowrap;
+    font-size: 33px;
+    padding: 0;
+    margin: 0;
+}
+.AskAnything{
+    white-space: nowrap;
+    font-size: 33px;
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+.FirstHeadSecondHello{
+    min-width: 60px;
+    max-width: 60px;
+}
+.FirstHeadSecondHello img{
+    width: 100%;
+}
+.FirstHeadSecondMic{
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 33px;
+    max-width: 30px;
+    min-width: 30px;
+}
+.FirstHeadSecondMic img{
+    width: 100%;
+}
+.SecondDivisionFirst{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+}
+.SecondFirstPlusShare{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.SecondFirstPlusWrap{
+    height: 70%;
+    background-color: white;
+    border-radius: 100px;
+}
+.SecondFirstPlusWhite{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: solid 2px #ebebeb;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100px;
+}
+.SecondFirstPlus{
+    border-radius: 100px;
+    cursor: pointer;
+    max-width: 33px;
+    min-width: 33px;
+    padding: 13px;
+}
+.SecondFirstPlus img{
+    width: 100%;
+}
+.SecondFirstShareWrap{
+    height: 25%;
+    background-color: white;
+    border-radius: 100px;
+}
+.SecondFirstShareWhite{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100px;
+}
+.SecondFirstShare{
+    border: solid 2px #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 100px;
+    cursor: pointer;
+    max-width: 33px;
+    min-width: 33px;
+    padding: 13px;
+}
+.SecondFirstShare img{
+    width: 100%;
+}
+.SecondFirstVisaPayment{
+    min-width: 27%;
+    max-width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    border-radius: 100px 100px 30px 30px;
+    margin-right: 20px;
+}
+.SecondFirstVisaUpper{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: white;
+    border: solid 2px #ebebeb;
+    border-radius: 30px;
+    padding: 20px;
+}
+.SecondFirstVisaImage{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.VisaImageWrapper{
+    min-width: 60px;
+    max-width: 60px;
+}
+.VisaImageWrapper img{
+    width: 100%;
+}
+.SecondFirstVisaDebits{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border: solid 2px #ebebeb;
+    margin-left: 20px;
+    border-radius: 100px;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.SecondFirstVisaDebits p{
+    margin: 0;
+    width: fit-content;
+    white-space: nowrap;
+    margin-right: 10px;
+    padding: 0;
+}
+.SecondFirstVisaLinked{
+    margin: 0;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    width: fit-content;
+    padding: 0;
+}
+.SecondFirstVisaBalance{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.SecondFirstVisaBtn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.SecondFirstVisaReceive{
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: fit-content;
+    background-color: black;
+    border-radius: 100px;
+    margin-right: 15px;
+    padding: 8px 35px;
+    cursor: pointer;
+}
+.SecondFirstVisaSend{
+    margin: 0;
+    padding: 0;
+    color: black;
+    width: fit-content;
+    background-color: #ebebeb;
+    border-radius: 100px;
+    margin-right: 15px;
+    padding: 8px 35px;
+    cursor: pointer;
+}
+.SecondFirstVisaLower{
+    margin: 20px;
+    color: gray;
+    white-space: nowrap;
+    width: fit-content;
+    padding: 0;
+}
+.SecondFirstIncomes{
+    min-width: 27%;
+    max-width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    border-radius: 100px 100px 30px 30px;
+    margin-right: 20px;
+}
+.SecondFirstIncomesUpper{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: white;
+    border: solid 2px #ebebeb;
+    border-radius: 30px;
+    padding: 20px;
+}
+.SecondFirstIncomesLower{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: transparent;
+    border: solid 2px #ebebeb;
+    border-radius: 30px;
+    padding: 20px;
+    padding-top: 10px;
+}
+.SecondFirstIncomesImage{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.IncomesImageWrapper{
+    border: solid 2px #ebebeb;
+    background-color: #ebebeb;
+    border-radius: 100px;
+    cursor: pointer;
+    max-width: 40px;
+    min-width: 40px;
+    padding: 6px;
+}
+.IncomesImageWrapper img{
+    width: 100%;
+}
+.IncomesImageWrapper2{
+    border: solid 2px white;
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    max-width: 40px;
+    min-width: 40px;
+    padding: 6px;
+}
+.IncomesImageWrapper2 img{
+    width: 100%;
+}
+.SecondFirstIncomesDebits{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border: solid 2px #ebebeb;
+    margin-left: 20px;
+    border-radius: 100px;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.SecondFirstIncomesDebits p{
+    margin: 0;
+    width: fit-content;
+    white-space: nowrap;
+    margin-right: 10px;
+    padding: 0;
+}
+.SecondFirstIncomesDebits2{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    border: solid 2px gray;
+    margin-left: 20px;
+    border-radius: 100px;
+    padding: 8px 13px;
+    cursor: pointer;
+}
+.SecondFirstIncomesDebits2 p{
+    margin: 0;
+    width: fit-content;
+    white-space: nowrap;
+    margin-right: 10px;
+    padding: 0;
+}
+.SecondFirstIncomesBalance{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0;
+}
+.SecondFirstIncomesBalance span{
+    color: #e16448;
+}
+.SecondFirstOrangeWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SecondFirstPaidWrapper{
+    min-width: 50%;
+    max-width: 50%;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.SecondFirstOrangeContainer{
+    min-width: 50%;
+    max-width: 50%;
+    display: flex;
+    overflow-x: hidden;
+    align-items: center;
+}
+.SecondFirstOrangeImage{
+    background-color: #e16448;
+    border-radius: 100px;
+    min-width: 36px;
+    max-width: 36px;
+    overflow-x: hidden;
+    padding: 3px;
+}
+.SecondFirstOrangeImage img{
+    min-width: 100%;
+    max-width: 100%;
+}
+.SecondFirstOrangeContainer p{
+    margin: 0;
+    padding: 0;
+    white-space: wrap;
+    margin-left: 10px;
+    color: #e16448;
+}
+.SecondFirstIncomesLinked{
+    margin: 0;
+    color: gray;
+    margin-bottom: 5px;
+    white-space: wrap;
+    width: fit-content;
+    padding: 0;
+}
+.SecondFirstChildLock{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    min-width: fit-content;
+    max-width: fit-content;
+}
+.SecondFirstBigCircle{
+    padding: 35px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #ebebeb;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondFirstLockImage{
+    min-width: 30px;
+    max-width: 30px;
+    margin-top: 10px;
+    overflow-x: hidden;
+}
+.SecondFirstLockImage img{
+    min-width: 100%;
+    max-width: 100%;
+}
+.SecondFirstChildLock p{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: wrap;
+}
+.SecondFirstCalender{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    padding: 20px;
+}
+.SecondFirstCalenderDays{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0;
+}
+.SecondFirstCalenderHours{
+    margin: 0;
+    white-space: nowrap;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.CalenderDatesWrappers{
+    min-width: fit-content;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.CalenderDatesImages{
+    min-width: 75px;
+    max-width: 75px;
+    margin: -5px;
+    overflow-x: hidden;
+}
+.CalenderDatesImages img{
+    filter: opacity(0.3) grayscale(100%);
+    min-width: 100%;
+    max-width: 100%;
+}
+.SecondDivisionWrapper{
+    width: 96%;
+    padding: 2%;
+    overflow-x: hidden;
+    background-color: white;
+}
+.SecondDivisionSecond{
+    width: 100%;
+    padding-top: 2%;
+    overflow-x: hidden;
+    display: flex;
+}
+.SecondDivisionSecondFirst{
+    min-width: 24%;
+    max-width: 24%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.SecondDivisionSecondAnnual{
+    margin: 0;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 0;
+}
+.SecondDivisionSecondCircleWrapper{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondDivisionSecondCircle1{
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #f6ecea;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondDivisionSecondCircle1 p{
+    margin: 10px 92px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+    padding: 0;
+}
+.SecondDivisionSecondCircle1 span{
+    color: #e1846b;
+}
+.SecondDivisionSecondCircle2{
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #f3d6d0;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondDivisionSecondCircle2 p{
+    margin: 10px 52px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+    padding: 0;
+}
+.SecondDivisionSecondCircle2 span{
+    color: #e0907b;
+}
+.SecondDivisionSecondCircle3{
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #efbbb0;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondDivisionSecondCircle3 p{
+    margin: 10px 22px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: black;
+    padding: 0;
+}
+.SecondDivisionSecondCircle3 span{
+    color: #e07e64;
+}
+.SecondDivisionSecondCircle4{
+    padding: 20px;
+    display: flex;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #e16448;
+    flex-direction: column;
+    align-items: center;
+}
+.SecondDivisionSecondCircle4 p{
+    margin: 10px 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    white-space: nowrap;
+    color: white;
+    padding: 0;
+}
+.SecondDivisionSecondCircle4 span{
+    color: #ed9281;
+}
+.SecondDivisionSecondSecond{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebeb;
+    border-radius: 30px;
+    padding: 20px;
+}
+.SecondDivisionSecondHeading{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecondDivisionSecondFilter{
+    min-width: fit-content;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.ThreeMenuImageWrapper{
+    background-color: white;
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    max-width: 33px;
+    min-width: 33px;
+    padding: 10px;
+}
+.ThreeMenuImageWrapper img{
+    width: 100%;
+}
+.FilterImageContainer{
+    border-radius: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+    max-width: 30px;
+    min-width: 30px;
+}
+.FilterImageContainer img{
+    width: 100%;
+}
+.FilterImageWrapper{
+    min-width: fit-content;
+    max-width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 10px 18px;
+    display: none;
+}
+.FilterImageWrapper p{
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+.SecondDivisionSecondComps{
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecondDivisionSecondComp1{
+    min-width: 19%;
+    max-width: 19%;
+    overflow-x: hidden;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.SecondFirstIncomesLinked2{
+    margin: 0;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    white-space: wrap;
+    width: fit-content;
+    padding: 0;
+}
+.SunnySunImageWrapper{
+    min-width: 60px;
+    max-width: 60px;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+}
+.SunnySunImageWrapper img{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
